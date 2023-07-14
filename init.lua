@@ -36,7 +36,7 @@ end
 require("lazy").setup({
 	spec = getPlugins(),
 	opts = {
-		concurrency = 1,
+		concurrency = 10,
 	},
 })
 

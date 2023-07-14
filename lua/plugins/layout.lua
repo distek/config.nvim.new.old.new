@@ -95,6 +95,15 @@ return {
 		end,
 	},
 	{
+		"romgrk/barbar.nvim",
+		dependencies = "nvim-tree/nvim-web-devicons",
+		opts = {
+			animation = false,
+			insert_at_end = false,
+			no_name_title = "-empty-",
+		},
+	},
+	{
 		"nvim-telescope/telescope.nvim",
 		dependencies = {
 			"nvim-lua/plenary.nvim",

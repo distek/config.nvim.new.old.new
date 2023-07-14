@@ -18,6 +18,9 @@ map("n", "N", "<Cmd>execute('normal! ' . v:count1 . 'N')<CR><Cmd>lua require('hl
 
 map("n", "<leader>af", "<cmd>SymbolsOutline<CR>", { desc = "Toggle outline panel" })
 
+map("n", "<Tab>", "<cmd>BufferNext<CR>", { desc = "" })
+map("n", "<S-Tab>", "<cmd>BufferPrevious<CR>", { desc = "" })
+
 -- refactoring.nvim
 map(
 	"v",
